@@ -1,0 +1,127 @@
+body {
+  height: 1050px;
+  margin: 5px;
+  padding: 5px;
+  font-size: Roboto,"Helvetica Neue",Arial,sans-serif ;
+  background-image: url(../images/background.png);
+}
+
+.nav-background {
+  background: #120E40
+  height: 100px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.container {
+  width: 1000px;;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 50%;
+}
+
+.button {
+  margin: 12px 0px;
+  float: right;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+  width: 15%;
+  height: 30px;
+  background: linear-gradient(-30deg, #6058f9 0%, #dd4ffc 100%);
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-download {
+  margin-right: 5px;
+}
+
+.navbar ul {
+  display: flex;
+  float: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 5px 0px;
+  margin-left: 22px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar li a:hover {
+  color: #dd4ffc;
+}
+
+.image-center {
+  float: right;
+}
+
+.text-center {
+  padding-top: 15%;
+}
+
+.text-center h1 {
+  color: white;
+  font-size: 47px;
+}
+
+.text-center p {
+  color: white;
+  font-size: 18px;
+}
+
+.button-google {
+  margin-top: 30px;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+  width: 15%;
+  height: 35px;
+  background: linear-gradient(-30deg, #6058f9 0%, #dd4ffc 100%);
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.button-apple {
+  margin-top: 30px;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+  width: 15%;
+  height: 35px;
+  background: linear-gradient(-30deg, #6058f9 0%, #dd4ffc 100%);
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.button-google a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-apple a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-android {
+  margin-right: 5px;
+}
+
+.icon-appleinc {
+  margin-right: 5px;
+}
